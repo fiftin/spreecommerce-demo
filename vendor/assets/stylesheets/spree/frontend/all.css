@@ -17,9 +17,7 @@
   position: absolute;
 }
 
-.spreex_promo a {
-  color: white;
-  text-decoration: underline;
+.spreex_promo span {
   opacity: 0.4;
 }
 
