@@ -13,7 +13,6 @@
 .spreex_promo {
   color: white;
   font-size: 10px;
-  opacity: 0.4;
   margin-top: 8px;
   position: absolute;
 }
@@ -21,4 +20,15 @@
 .spreex_promo a {
   color: white;
   text-decoration: underline;
+  opacity: 0.4;
+}
+
+.spreex_promo a {
+  color: white;
+  text-decoration: underline;
+  opacity: 0.4;
+}
+
+.spreex_promo a:hover {
+  opacity: 1;
 }

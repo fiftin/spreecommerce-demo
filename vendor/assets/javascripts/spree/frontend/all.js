@@ -13,6 +13,8 @@
 //= require spree/frontend/spree_add_to_cart_ajax
 
 $(function() {
-  $('<div class="spreex_promo" target="_blank">+ <a href="https://spreex.github.io/extensions/spree_amazon_like_dropdown">spree_amazon_like_dropdown</a> &amp;' +
-    ' <a target="_blank" href="https://spreex.github.io/extensions/spree_add_to_cart_ajax">spree_add_to_cart_ajax</a></div>').appendTo('#logo');
+  $('<div class="spreex_promo"><span>+</span> ' +
+    '<a target="_blank" href="https://spreex.github.io/extensions/spree_amazon_like_dropdown">spree_amazon_like_dropdown</a>' +
+    ' <span>&amp;</span> ' +
+    '<a target="_blank" href="https://spreex.github.io/extensions/spree_add_to_cart_ajax">spree_add_to_cart_ajax</a></div>').appendTo('#logo');
 });
