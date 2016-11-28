@@ -13,15 +13,3 @@
  *= require_tree .
  *= require_self
  */
-.spreex_promo {
-  color: white;
-  font-size: 10px;
-  opacity: 0.5;
-  margin-top: 8px;
-  position: absolute;
-}
-
-.spreex_promo a {
-  color: white;
-  text-decoration: underline;
-}

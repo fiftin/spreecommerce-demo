@@ -11,3 +11,8 @@
 //= require spree/frontend/spree_amazon_like_dropdown
 //= require_tree .
 //= require spree/frontend/spree_add_to_cart_ajax
+
+$(function() {
+  $('<div class="spreex_promo">+<a href="https://spreex.github.io/extensions/spree_amazon_like_dropdown">spree_amazon_like_dropdown</a> &amp;' +
+    ' <a href="https://spreex.github.io/extensions/spree_add_to_cart_ajax">spree_add_to_cart_ajax</a></div>').appendTo('#logo');
+});
