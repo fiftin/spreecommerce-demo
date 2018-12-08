@@ -54,5 +54,5 @@ gem 'spree', '3.0.4'
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '3-0-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '3-0-stable'
 
-gem 'spree_amazon_like_dropdown', github: 'maginfo-team/spree_amazon_like_dropdown'
-gem 'spree_add_to_cart_ajax', github: 'fiftin/spree_add_to_cart_ajax'
+gem 'spree_amazon_like_dropdown', github: 'fiftin/spree_amazon_like_dropdown', branch: '3-0-stable'
+gem 'spree_add_to_cart_ajax', github: 'fiftin/spree_add_to_cart_ajax', branch: '3-0-stable'
