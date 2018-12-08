@@ -11,23 +11,14 @@
  *= require spree/frontend/spree_add_to_cart_ajax
 */
 .spreex_promo {
-  color: white;
-  font-size: 10px;
-  margin-top: 8px;
-  position: absolute;
+  background: white !important;
+  color: #1c5c92 !important;
+  padding: 5px 20px !important;
+  margin: 10px 0 !important;
+  border-radius: 50px !important;
 }
 
-.spreex_promo span {
-  opacity: 0.5;
-}
-
-.spreex_promo a {
-  color: white;
-  text-decoration: underline;
-  opacity: 0.5;
-  padding: 5px 0;
-}
-
-.spreex_promo a:hover {
-  opacity: 1;
+.spreex_promo:hover {
+  background: white;
+  text-decoration: underline !important;
 }
