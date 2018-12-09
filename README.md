@@ -1,6 +1,6 @@
 ![Logo](https://spreecommerce-demo.herokuapp.com/assets/logo/spree_50-1c7335be355d4672a35c5023956d0c883f254831f3e3dae3f2ca05976ceb5e50.png)
 
-Source code of website which demonstrates abilities of [Spree Commerce 3.6](https://github.com/spree/spree/tree/3-0-stable) engine on Rails 5.2.
+Source code of website which demonstrates abilities of [Spree Commerce 3.0](https://github.com/spree/spree/tree/3-0-stable) engine on Rails 4.2.
 
 The demo website includes next extensions:
 
