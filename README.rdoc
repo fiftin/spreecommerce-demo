@@ -1,28 +1,17 @@
-== README
+![Logo](https://spreecommerce-demo.herokuapp.com/assets/logo/spree_50-1c7335be355d4672a35c5023956d0c883f254831f3e3dae3f2ca05976ceb5e50.png)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Source code of website which demonstrates abilities of [Spree Commerce 3.6](https://github.com/spree/spree/tree/3-0-stable) engine on Rails 5.2.
 
-Things you may want to cover:
+The demo website includes next extensions:
 
-* Ruby version
+* [spree_amazon_like_dropdown](https://github.com/fiftin/spree_amazon_like_dropdown/tree/3-0-stable) &mdash; Amazon-like dropdown menu
+* [spree_add_to_cart_ajax](https://github.com/fiftin/spree_add_to_cart_ajax/tree/3-6-stable) &mdash; Add item to cart with using AJAX
 
-* System dependencies
+### How to run?
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+```
+git clone https://github.com/fiftin/spreecommerce-demo
+cd spree36-demo
+rake db:migrate
+rails server
+```
