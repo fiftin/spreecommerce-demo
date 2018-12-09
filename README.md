@@ -11,7 +11,7 @@ The demo website includes next extensions:
 
 ```
 git clone https://github.com/fiftin/spreecommerce-demo
-cd spree36-demo
+cd spreecommerce-demo
 rake db:migrate
 rails server
 ```
